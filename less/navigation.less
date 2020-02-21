@@ -1,1 +1,33 @@
 // Navigation code here
+
+div.nav {
+    display: flex;
+    .directionAlignitemsJustifycontent(column, center, space-around);
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 1px;
+
+    h1 {
+        font-size: 4.0rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 370px;
+        margin-bottom: 5px;
+
+        a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: @header-font-color;
+        }
+        @media @phone {
+            width: 100%;
+        }
+    }
+
+    @media @phone {
+        max-width: 80%;
+    }
+}
