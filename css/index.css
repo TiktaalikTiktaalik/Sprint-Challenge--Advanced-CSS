@@ -291,8 +291,8 @@ footer {
 }
 .home .walk .walk-text .btn {
   border-radius: 5px;
-  width: 30%;
-  padding: 3%;
+  width: 100px;
+  padding: 9px;
   background-color: #22283A;
   color: white;
   text-align: center;
